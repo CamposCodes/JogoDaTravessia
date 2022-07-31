@@ -9,11 +9,48 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="all">
-        <div class="margemE"></div>
-        <div class="rio"></div>
-        <div class="margemD"></div>
+    <div class="all">
+        <div class="rules">
+            <h2>! Jogo da Travessia !</h2>
+            <h3>Nessa versão, o jogador precisa levar em um barco, para o outro lado do rio, o lobo, a galinha e o milho; sendo que deverá transportar apenas um item por vez (sem que a galinha coma o milho e sem que o lobo coma a galinha) .</h3>
+            <details>
+                <summary class="obs__title">Observações:</summary>
+                    <ul class="obs__rules">
+                        <li>Ao clicar em um animal ele irá para o barco.</li>
+                        <li>Ao clicar no barco ele atravessa o rio.</li>
+                        <li>Ao clicar no barco ele devolve o animal a margem.</li>
+                        <li>Os animais podem ficar juntos enquanto o barco se encontra na mesma margem que eles.</li>
+                        <li>Os animais podem ir e voltar de qualquer margem.</li>
+                    </ul>
+              </details>
+            
+            <a id="link" href="https://pt.wikipedia.org/wiki/Problema_do_fazendeiro,_o_lobo,_o_carneiro_e_a_alface">Para entemder melhor sobre o jogo clique aqui !</a>
+            <button id="start">Iniciar o Jogo</button>
+            <h5 id="assinatura">Desenvolvido por Gabriel Campos</h5>
+           
+        </div>
+        <div class="victoryScreen">
+            <h2>Parabens ! Você ganhou o jogo !</h2>
+            <h1>😁</h1>
+            <button id="restartWin">Reiniciar</button>
+        </div>
+        <div class="loseScreen">
+            <h2>Você perdeu o jogo !</h2>
+            <h1>😭</h1>
+            <button id="restartLose">Reiniciar</button>
+        </div>
+        <div class="marginE">
+            <img class="animal" id="chicken" src="./imagens/chicken.png" alt="" />
+            <img class="animal" id="wolf" src="./imagens/wolf.png" alt="" />
+            <img class="animal" id="corn" src="./imagens/corn.png" alt="" />
+        </div>
+        <div class="river">
+            <div class="boatArea">
+                <img id="boat" src="./imagens/boat.png"/>
+            </div>
+        </div>
+        <div class="marginD"></div>
     </div>
-    
+    <!-- GABRIEL CAMPOS LIMA ALVES -->
 </body>
 </html>

@@ -1,0 +1,157 @@
+/*toda pagina*/
+body{
+    margin: 0;
+}
+.all{
+    background-image: url(./imagens/background.png);
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*regras*/
+.rules{
+    background-color: antiquewhite;
+    position:  absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    height: auto;
+    width: 50vw;
+    box-shadow: 10px 10px 18px rgba(255, 255, 255, 0.543);
+}
+/*tela de vitoria*/
+.victoryScreen{
+    background-color: antiquewhite;
+    position:  absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.696);
+    display: none;
+    z-index: 100;
+
+}
+/*tela de derrota*/
+.loseScreen{
+    background-color: antiquewhite;
+    position:  absolute;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.696);
+    display: none;
+    z-index: 100;
+}
+/*details*/
+.obs__rules{
+    text-align: left;
+}
+.obs__title:hover{
+    color: red;
+}
+/*animal/objeto*/
+.animal{
+    width: 100px;
+    height: 100px;
+    
+}
+.animal:hover{
+    transform: scale(1.08);
+}
+/*rio*/
+.river{
+    display: flex;
+    align-items: center;
+    flex: 0.4;
+}
+/*margens*/
+.marginE{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0.4;
+}
+.marginD{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 0.4;
+}
+/*bote e area do bote*/
+#boat{
+    width: 160px;
+    height: 160px;
+}
+#boat:hover{
+    transform: scale(1.08);
+}
+.boatArea{
+    display: flex;
+    justify-content: center;
+}
+
+/*Botoes*/
+#restartWin{
+    border-radius: 5px;
+    width: 10vw;
+    height: 8vh;
+    margin: 5%;
+
+}
+#restartLose{
+    border-radius: 5px;
+    width: 10vw;
+    height: 8vh;
+    margin: 5%;
+}
+#start{
+    border-radius: 5px;    
+    width: 10vw;
+    height: 8vh;
+    margin: 5%;
+}
+#restartWin:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.2s;
+}
+#restartLose:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.2s;
+}
+#start:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.2s;
+}
+
+/*assinatura*/
+
+#assinatura{
+    margin: 5%;
+}
+#assinatura:hover{
+    color: rgb(115, 37, 171);
+    transition: all 0.2s;
+}
+
+/*link*/
+#link{
+    color: black;
+    display: flex;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+}
+#link:hover{
+    color: red;
+    transition: all 0.2s;
+}
