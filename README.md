@@ -1,4 +1,4 @@
-# Jogo-da-Travessia
+# Jogo da Travessia
 
  - Este jogo foi desenvolvido como uma atividade de Lab. de Programação Web, Universidade Federal de Juiz de Fora;
  
